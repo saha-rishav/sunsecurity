@@ -1,0 +1,299 @@
+/* about us section */
+
+#about-us{
+    margin-top: 140px;
+}
+#about-us img{
+    width: 100%;
+    height: 53vh;
+}
+#about-us .welcome-detail h5 {
+    text-transform: uppercase;
+    color: rgb(160, 39, 2);
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+#about-us h3 {
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+    /* margin-top: 25px; */
+    margin-bottom: -10px;
+} 
+#about-us h3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 1.5px;
+    width: 145px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+#about-card .card{
+    box-shadow: 4px 4px 8px 2px rgb(0,0,0,0.2);
+}
+#about-card h3{
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: rgb(160, 39, 2);
+    position: relative;
+}
+#about-card p{
+    text-align: justify;
+    padding-right: 30px;
+}
+#about-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* end about us section */
+
+/* services section */
+
+#service{
+    margin-top: 140px; 
+}
+#service .card{
+    margin-top: 25px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    min-height: 550px;
+}
+
+#service .card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#service .card img{
+    height: 50vh;
+}
+
+/* #service .card:hover{
+    transform: scale(1.05);
+} */
+
+#service h2{
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+}
+#service h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 220px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+.card-body p{
+    font-size: 14px ;
+}
+/* end services section */
+
+/* gallery section */
+
+#gallery{
+    margin-top: 140px;
+}
+#gallery h2{
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+}
+#gallery h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 138px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+.gallery-section{
+    margin-top: 15px;
+}
+.gallery-section img{
+    width: 274px;
+    height: 200px;
+    padding: 4px;
+    object-fit: cover;
+    transition: all 1s ease;
+    
+}
+.gallery-section img:hover{
+    transform: scale(1.1);
+}
+
+/* end gallery section */
+
+/* career section */
+
+#career{
+    margin-top: 140px;
+}
+#career h2{
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+}
+#career h2::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 265px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+/* #career ul{
+    margin-top: 22px;
+    list-style-type: none;
+}
+#career ul li p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+#career ul li p span i{
+    font-size: 16px;
+}
+#career a{
+    text-decoration: none;
+    color: rgb(160, 39, 2);
+}
+#career h6{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#career .location{
+    float: right;
+    padding-right: 100px;
+    color: black;
+}
+#career .posts{
+    margin-left: 35px;
+} */
+#career .card{
+    margin-top: 30px;
+    box-shadow: 4px 4px 8px 2px rgb(0,0,0,0.2);
+}
+#career .job-name{
+    padding-left: 75px;
+}
+#career .location{
+    padding-left: 100px;
+}
+#career .job-name a{
+    text-decoration: none;
+    color: rgb(160, 39, 2);
+}
+
+#jobs{
+    margin-top: 140px;
+}
+#jobs .card{
+    margin-top: 25px;
+    box-shadow: 4px 4px 8px 2px rgb(0,0,0,0.2);
+}
+#jobs .card-body h2{
+    color: #b95300;
+}
+#jobs .card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#jobs .card-body h6{
+    font-weight: 700;
+}
+#jobs #text{
+    font-size: 18px;
+}
+#jobs #text a{
+    text-decoration: none;
+    color: #0c0b09;
+}
+
+/* end career section */
+
+/* contact section */
+
+#contactUs{
+    margin-top: 140px;
+}
+#contactUs h2{
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+}
+#contactUs h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+#message{
+    resize: none;
+}
+#text-address{
+    resize: none;
+}
+
+/* end contact section */
+
+/* security tips */
+
+#security-tips{
+    margin-top: 140px;
+}
+.tips-heading h2{
+    text-transform: uppercase;
+    color: #254a93;
+    position: relative;
+}
+.tips-heading h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 225px;
+    background-color: #0933a9;
+    /* background-color: #36bb25; */
+}
+#security-tips .card-body p{
+    font-size: 16px ;
+}
+#security-tips li{
+    margin-bottom: 7px;
+}
+#security-tips .card {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.btn-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #b95300;
+}
+.card-header{
+    border-color: none;
+}
+/* #security-tips .card-header {
+    background-color: none;
+    border-bottom: none;
+    background: transparent;
+} */
+
